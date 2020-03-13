@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- other pages -->
+    <link href="styles1.css" rel="stylesheet"/>
+    <script src="menu.js" defer></script>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Trade+Winds|Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+
+    <title>Tottie's Asian Fusion</title>
+</head>
+<body>
+    <header id="banner">
+        <h1>Tottie's Asian Fusion #1</h1>
+        <h2>At Thomas and Hayden 480-970-0633</h2>
+    </header>
+    <div id="content" class="row">
+        <nav class="col-1-6">
+            <ul>
+                <li onclick="changeMenu('apps')">Appetizers</li>
+                <li onclick="changeMenu('soup')">Soup</li>
+                <li onclick="changeMenu('tv')">Thai/Vietnamese</li>
+                <li onclick="changeMenu('entre')">Chinese Entrees</li>
+                <li onclick="changeMenu('nood')">Chinese Noodles</li>
+                <li onclick="changeMenu('veggie')">Chinese Veggies</li>
+                <li onclick="changeMenu('rice')">Rice</li>
+                <li onclick="changeMenu('dessert')">Desserts</li>
+                <li onclick="changeMenu('specials')">Lunch Specials</li>
+            </ul>
+        </nav>
+        <article id="article" class="col-5-6">
+            <div id="menu" class="row">
+                <!-- gets filled in by the js -->
+            </div>
+        </article>
+        <!-- <aside id="pictures" class="col-1-6">
+            Pictures would have gone here if I knew how to accompolish what I wanted.
+            Would have taken up the right side of the body and change to what item
+            was hovered over.
+        </aside> -->
+    </div>
+    <footer>7901 E Thomas Rd, Scottsdale, AZ 85251  &#11032;  (480) 970-0633</footer>
+</body>
+</html>
